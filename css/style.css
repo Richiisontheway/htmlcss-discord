@@ -18,38 +18,30 @@
     DEBUG
 */
 
-.debug .header-background {
+
+
+
+
+
+
+/* 
+    HEADER
+*/
+.header-background {
     background-image: url(../img/jumbo.png);
     min-height: 600px;
     background-size: cover;
 }
 
-.debug .orangebar{
-    background-color: orange;
+
+.orangebar{
     margin: 10px auto;
     display: flex;
     width: 100%;
 }
 
-.debug .bottom-container{
-    display: flex;
-    min-height: 400px;
-}
-
-.debug .rosybrown {
-    background-color: rosybrown;
-    margin: 20px auto;
-    width: 40%;
-    border: black dashed 1px;
-}
-
-/* 
-    HEADER
-*/
-
 .orangebar > * {
     display: flex;
-    border: black dashed 1px;
     padding: 5px;
 }
 
@@ -83,33 +75,148 @@ li > a{
     background-color: white;
     border-radius: 25px;
 }
+.bottom-container{
+    display: flex;
+    min-height: 400px;
+}
+.rosybrown{
+    padding-top: 5%;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+.rosybrown > h1,
+.rosybrown > p{
+    color: white;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+}
+p{
+    font-size: 20px;
+}
+.button2ndtype{
+    background-color: aquamarine;
+    width: 5%;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 1.5em;
+}
+.button3ndtype{
+    background-color: aquamarine;
+    width: 5%;
+    text-decoration: none;
+    color: black;
+    padding: 5px 8px;
+    border-radius: 25px;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
 
- .white {
+/* MAIN-PRIMA SEZIONE */
+
+.white {
     background-color: white;
     justify-content: center;
 }
 
-.debug .lightblue{
-    background-color: lightblue;
-    width: 35%;
-}
-.debug .lightcoral{
-    background-color: lightcoral;
-    width: 65%;
-}
-
-.debug .green{
-    background-color: green;
-    width: 100%;
-    height: 700px;
+.lightblue,
+.lightcoral{
+    min-height: 400px;
     margin: 20px 0;
-    border: black dashed 1px;
+}
+.lightblue{
+    width: 60%;
+}
+.img-main{
+    max-width: 100%;
+    height: auto;
+    
 }
 
-.debug .pink{
+.lightcoral{
+    width: 55%;
+}
+
+h2 {
+    padding-top: 7%;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+p {
+    color: black;
+    font-size: 1.5em;
+    padding-top: 25px;
+}
+/* MAIN-SECONDA SEZIONE */
+
+.grey {
+    background-color: rgb(246,246,246);
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+
+/* MAIN-QUARTA SEZIONE */
+
+.green{
+    width: 100%;
+    height: 800px;
+    margin: 20px 0;
+    text-align: center;
+}
+.container2{
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+}
+.final-container-main{
+    text-align: center;
+}
+.final-container-main > div {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+.final-container-main > a {
+    background-color: rgb(114, 137, 218);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+/* FOOTER */
+
+.darkgrey{
+    background-color: #23272A;
+    justify-content: center;
+}
+
+.pink > h2 {
+    color:#6F88D9
+}
+.column{
+    border: white dashed 1px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 4);
+}
+
+.bottomfooter{
+    margin-top: 1px;
+}
+ .pink{
     background-color: pink;
     width: 20%;
-    height: 700px;
+    min-height: 400px;
     margin: 20px 0;
     border: black dashed 1px;
 }
@@ -117,7 +224,7 @@ li > a{
 .debug .lightskyblue{
     background-color: lightskyblue;
     width: 80%;
-    height: 700px;
+    min-height: 400px;
     margin: 20px 0;
     border: black dashed 1px;
     display: flex;
@@ -140,49 +247,4 @@ li > a{
     width: 5%;
     height: 20px;
 
-}
-
-/* MAIN-PRIMA SEZIONE */
-
-
-
-.lightblue,
-.lightcoral{
-    display: flex;
-    min-height: 300px;
-    margin: 20px 0;
-    border: black dashed 1px;
-}
-
-
-
-
-
-/* MAIN-SECONDA SEZIONE */
-
-.grey {
-    background-color: grey;
-    justify-content: center;
-}
-
-/* MAIN-QUARTA SEZIONE */
-
-
-
-/* FOOTER */
-
-.darkgrey{
-    background-color: darkgrey;
-    justify-content: center;
-}
-
-.column{
-    border: white dashed 1px;
-    display: flex;
-    flex-direction: column;
-    width: calc(100% / 4);
-}
-
-.bottomfooter{
-    margin-top: 1px;
 }
