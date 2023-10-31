@@ -7,13 +7,165 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+    justify-content: center;
+    display: flex;
+}
 
 /* 
-    GENERAL
+    DEBUG
 */
 
-.contenitore{
-    max-width: 1200px;
-    margin: 0 auto;
+.debug .header-background {
+    background-image: url(../img/jumbo.png);
+    min-height: 600px;
+    background-size: cover;
+}
 
+.debug .orangebar{
+    background-color: orange;
+    margin: 10px auto;
+    display: flex;
+    width: 80%;
+}
+
+/* .debug .bottom-container{
+    background-color: blue;
+    display: flex;
+    min-height: 400px;
+} */
+
+.debug .rosybrown {
+    background-color: rosybrown;
+    margin: 20px auto;
+    width: 40%;
+    border: black dashed 1px;
+}
+
+/* 
+    HEADER
+*/
+
+.orangebar > * {
+    display: flex;
+    border: black dashed 1px;
+    padding: 5px;
+}
+
+.orangebar > div:nth-child(1),
+.orangebar > div:nth-child(3){
+    width: 25%;
+}
+
+.orangebar > div:nth-child(2){
+    width: 50%;
+    justify-content: center;
+}
+.orangebar > div:nth-child(3){
+    justify-content: end;
+}
+
+.debug .white {
+    background-color: white;
+    justify-content: center;
+}
+
+.debug .lightblue{
+    background-color: lightblue;
+    width: 35%;
+}
+.debug .lightcoral{
+    background-color: lightcoral;
+    width: 65%;
+}
+
+.debug .green{
+    background-color: green;
+    width: 100%;
+    height: 700px;
+    margin: 20px 0;
+    border: black dashed 1px;
+}
+
+.debug .pink{
+    background-color: pink;
+    width: 20%;
+    height: 700px;
+    margin: 20px 0;
+    border: black dashed 1px;
+}
+
+.debug .lightskyblue{
+    background-color: lightskyblue;
+    width: 80%;
+    height: 700px;
+    margin: 20px 0;
+    border: black dashed 1px;
+    display: flex;
+}
+.debug .lightbluefooter{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.debug .footer-button{
+    display: flex;
+    justify-content: center;
+    background-color: lightsalmon;
+    border: black dashed 1px;
+    width: 5%;
+    height: 20px;
+
+}
+
+/* MAIN-PRIMA SEZIONE */
+
+
+
+.lightblue,
+.lightcoral{
+    display: flex;
+    min-height: 300px;
+    margin: 20px 0;
+    border: black dashed 1px;
+}
+
+
+
+
+
+/* MAIN-SECONDA SEZIONE */
+
+.grey {
+    background-color: grey;
+    justify-content: center;
+}
+
+/* MAIN-QUARTA SEZIONE */
+
+
+
+/* FOOTER */
+
+.darkgrey{
+    background-color: darkgrey;
+    justify-content: center;
+}
+
+.column{
+    border: white dashed 1px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 4);
+}
+
+.bottomfooter{
+    margin-top: 1px;
 }
