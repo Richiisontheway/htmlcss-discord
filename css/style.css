@@ -244,7 +244,7 @@ p {
     padding-right: 15px;
 }
 
-.lightskyblue{;
+.lightskyblue{
     width: 80%;
     min-height: 400px;
     margin: 20px 0;
@@ -256,8 +256,14 @@ p {
     border: white dashed 1px;
     flex-direction: column;
     width: calc(100% / 4);
-}
+    color: #6F88D9;
+    font-size: larger;
+    
 
+}
+.footer-list > li {
+    display: inline-block;
+}
 .lightbluefooter{
     background-color: lightskyblue;
     width: 100%;
